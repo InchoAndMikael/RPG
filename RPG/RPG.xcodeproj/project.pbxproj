@@ -15,6 +15,7 @@
 		0AA7EA971E6093D1002D098D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7EA951E6093D1002D098D /* LaunchScreen.storyboard */; };
 		0AA7EAA21E6093D1002D098D /* RPGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EAA11E6093D1002D098D /* RPGTests.m */; };
 		0AA7EAAD1E6093D1002D098D /* RPGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EAAC1E6093D1002D098D /* RPGUITests.m */; };
+		0AB8667C1E6ED0C40047F77A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8667B1E6ED0C40047F77A /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0AA7EAA81E6093D1002D098D /* RPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA7EAAC1E6093D1002D098D /* RPGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPGUITests.m; sourceTree = "<group>"; };
 		0AA7EAAE1E6093D1002D098D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB8667B1E6ED0C40047F77A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0AB8667D1E6ED0E00047F77A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				0AA7EA8D1E6093D1002D098D /* ViewController.h */,
 				0AA7EA8E1E6093D1002D098D /* ViewController.m */,
 				0AA7EA901E6093D1002D098D /* Main.storyboard */,
+				0AB8667B1E6ED0C40047F77A /* MainViewController.m */,
+				0AB8667D1E6ED0E00047F77A /* MainViewController.h */,
 				0AA7EA931E6093D1002D098D /* Assets.xcassets */,
 				0AA7EA951E6093D1002D098D /* LaunchScreen.storyboard */,
 				0AA7EA981E6093D1002D098D /* Info.plist */,
@@ -276,6 +281,7 @@
 				0AA7EA8F1E6093D1002D098D /* ViewController.m in Sources */,
 				0AA7EA8C1E6093D1002D098D /* AppDelegate.m in Sources */,
 				0AA7EA891E6093D1002D098D /* main.m in Sources */,
+				0AB8667C1E6ED0C40047F77A /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +511,7 @@
 				0AA7EAB31E6093D1002D098D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA7EAB41E6093D1002D098D /* Build configuration list for PBXNativeTarget "RPGTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				0AA7EAB61E6093D1002D098D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA7EAB71E6093D1002D098D /* Build configuration list for PBXNativeTarget "RPGUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				0AA7EAB91E6093D1002D098D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

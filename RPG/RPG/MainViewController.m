@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  RPG
 //
-//  Created by 上原優里奈 on 2017/02/25.
+//  Created by 上原優里奈 on 2017/03/07.
 //  Copyright © 2017年 上原優里奈. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
